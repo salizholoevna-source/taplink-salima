@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Taplink — Салима Жолоевна</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(135deg, #2e1b0e, #3d2c1a, #234d2a);
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+            color: #f1ede5;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(8px);
+            border-radius: 16px;
+            padding: 30px 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 1s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+
+        .avatar {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #4caf50;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(76, 175, 80, 0.4);
+        }
+
+        h1 {
+            margin: 10px 0 5px;
+            font-size: 26px;
+            color: #e7dfc6;
+        }
+
+        p.description {
+            color: #b8b6ac;
+            font-size: 15px;
+            margin-bottom: 25px;
+        }
+
+        .link {
+            display: block;
+            width: 90%;
+            max-width: 320px;
+            margin: 12px auto;
+            padding: 14px;
+            background: linear-gradient(90deg, #4caf50, #3b8c3f);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+        }
+
+        .link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(76, 175, 80, 0.5);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #a0a093;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                padding: 25px 15px;
+            }
+            .link {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://instagram.ffrx2-1.fna.fbcdn.net/v/t51.2885-15/462398867_513864381174201_2064959238308247834_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.ffrx2-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=DUASsWzqSc8Q7kNvgG-YB44&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzQ1NjM4MDE2MDMzOTU5OTg0Mw%3D%3D.2-ccb7-5&oh=00_AYAEQOhq0OPrh3RrjOLMxvKtuBcwq5kS9ckm8hYhOaQKxw&oe=670FEC3E&_nc_sid=10d13b" 
+             alt="Салима Жолоевна" class="avatar">
+
+        <h1>Салима Жолоевна</h1>
+        <p class="description">Начнём качать Instagram? Вот мои ссылки:</p>
+
+        <a class="link" href="https://wa.me/996705922401" target="_blank">💬 WhatsApp</a>
+        <a class="link" href="https://www.instagram.com/salimusha0900/" target="_blank">📸 Instagram</a>
+        <a class="link" href="mailto:sali.zholoevna@gmail.com">✉️ Gmail</a>
+        <a class="link" href="https://yourportfolio.com" target="_blank">💼 Портфолио</a>
+
+        <footer>© 2025 Салима</footer>
+    </div>
+
+</body>
+</html>
